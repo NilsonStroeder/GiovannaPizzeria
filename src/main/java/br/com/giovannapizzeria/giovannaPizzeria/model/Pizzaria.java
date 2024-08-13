@@ -9,7 +9,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Set;
 
-@Repository
+@Entity
 public class Pizzaria {
 
     private static final long serialVersionUID = 96265543598833115L;
@@ -28,7 +28,7 @@ public class Pizzaria {
 
     @NotNull
     @NotEmpty
-    private String endereco;
+    private Address address;
 
     @ElementCollection
     private Set<String> emails;

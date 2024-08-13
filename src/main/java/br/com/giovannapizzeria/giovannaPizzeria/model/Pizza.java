@@ -38,7 +38,7 @@ public class Pizza {
     @ManyToMany
     private Map<Ingredient, Weight> ingredients;
 
-    public String getName() {
-        return name;
-    }
+//    public String getName() {
+//        return name;
+//    }
 }
